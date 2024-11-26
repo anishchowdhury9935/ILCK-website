@@ -366,6 +366,10 @@ img {
     .desktop-left-part {
         display: flex;
     }
+
+    #moible-footer {
+        justify-content: flex-end;
+    }
 }
 
 
