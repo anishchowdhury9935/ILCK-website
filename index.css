@@ -233,7 +233,13 @@ nav {
     justify-content: center;
     position: fixed;
     padding-bottom: 1em;
-    z-index: -1;
+    pointer-events: none;
+
+    /* z-index: -1; */
+    &>audio {
+        pointer-events: all;
+        /* z-index: 100; */
+    }
 }
 
 .desktop-left-part {
